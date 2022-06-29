@@ -30,25 +30,4 @@ public class MyController {
         }
         return "show-emp-details-view";
     }
-
-//    @RequestMapping("/showDetails")
-//    public String showEmployeeDetails() {
-//        return "show-emp-details-view";
-//    }
-
-//    @RequestMapping("/showDetails")
-//    public String showEmployeeDetails(HttpServletRequest request, Model model) {
-//        String employeeName = request.getParameter("employeeName");
-//        employeeName = "Mr. " + employeeName;
-//        model.addAttribute("nameAttribute", employeeName);
-//        return "show-emp-details-view";
-//    }
-
-//    @RequestMapping("/showDetails")
-//    public String showEmployeeDetails(@RequestParam("employeeName") String employeeName,
-//                                      Model model) {
-//        employeeName = "Mr. " + employeeName;
-//        model.addAttribute("nameAttribute", employeeName);
-//        return "show-emp-details-view";
-//    }
 }
